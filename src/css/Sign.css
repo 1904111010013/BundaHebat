@@ -1,0 +1,119 @@
+.sign {
+    display: flex;
+    height: 94vh;
+    width: 100%;
+    padding: 0 4rem;
+}
+.sign-decoration {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-decoration h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.sign-decoration h1:nth-child(2) {
+    color: #9B5019;
+    margin-bottom: 2rem;
+}
+.sign-decoration h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.sign-decoration p {
+    color: #9B5019;
+}
+.sign-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4rem;
+}
+.sign-menu {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.sign-menu a {
+    font-weight: bold;
+    color: black;
+}
+.sign-box form {
+    display: flex;
+    flex-direction: column;
+}
+.sign-box form label {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.sign-box form input {
+    background-color: #DCB79C;
+    padding: 0.66rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.sign-box form button {
+    background-color: #9B5019;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.sign-box form button:hover {
+    background-color: #9b4202;
+}
+.sign-box p {
+    margin-top: 2rem;
+    text-align: center;
+}
+.sign-box .metode-lain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sign-box .metode-lain button {
+    background-color: #395185;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.sign-box .metode-lain button:nth-child(2) {
+    background-color: #FF3D00;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.syarat-setuju {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.syarat-setuju span a {
+    color: #9B5019;
+}
