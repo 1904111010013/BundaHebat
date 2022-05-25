@@ -1,0 +1,104 @@
+.riwayat {
+    height: 94vh;
+    width: 100%;
+    background: #DCB79C;
+    border-radius: 2rem 2rem 0 0;
+    padding: 2rem 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.riwayat p {
+    color: white;
+}
+.riwayat-header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.riwayat-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.show-result {
+    display: flex;
+}
+.edit-btn {
+    padding: 0.5rem;
+    width: 6rem;
+    background-color: #9B5019;
+    color: white;
+    border-radius: 0.66rem;
+    border: 1px solid #F2F2F2;
+}
+.show-result {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.show-result button {
+    padding: 0.5rem;
+    width: 3rem;
+    background-color: #9B5019;
+    color: white;
+    border-radius: 0.66rem;
+}
+.riwayat-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.riwayat-table table {
+    background-color: #9B5019;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    color: white;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.riwayat-table table thead th {
+    padding-bottom: 2rem;
+}
+.riwayat-table table tr td {
+    padding: 0.5rem 2rem;
+}
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+.actions i {
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+}
+.actions i:nth-child(3) {
+    color: red;
+}
+.next-prev {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.next-prev p {
+    color: black;
+}
+.next-prev button {
+    background: none;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.next-prev button:hover {
+    background-color: black;
+    color: white;
+}
