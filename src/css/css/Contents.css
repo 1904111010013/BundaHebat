@@ -1,0 +1,38 @@
+.info-kesehatan {
+    padding: 0 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+p {
+    word-spacing: 2px;
+    font-size: 1rem;
+    width: 60%;
+    line-height: 2;
+    text-align: justify;
+}
+
+img {
+    width: 40%;
+    height: fit-content;
+    padding-left: 3rem;
+}
+
+.konten {
+    display: flex;
+}
+
+.mitos-fakta {
+    width: 60%;
+}
+.mitos-fakta p {
+    width: 100%;
+}
+.mitos-fakta ul li {
+    list-style: square;
+}
